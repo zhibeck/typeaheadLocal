@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  /* Apply the background image */
+  background-image: url("https://images.pexels.com/photos/7184344/pexels-photo-7184344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  /* Set background size to cover */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set a fallback background color */
+  background-color: black;
+
+  /* Optional: Set the height to make sure background image is visible */
+  min-height: 100vh;
+
+  /* Optional: Set text color to make it visible against the dark background image */
+  color: white;
+
+  /* Center the text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+}
